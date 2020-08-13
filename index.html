@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retos con javascript | Parte 6</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <div class="header">
+        <a href="#default" class="logo">
+            <span class="logo">Daro🐱‍👤</span>
+        </a>
+        <div class="header-right">
+            <a href="https://github.com/OmarDarioMelendrez" target="_blank" ><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/omar-dario-melendrez/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+      </div>
+    <!-- END HEADER -->
+    
+    <div class="container">
+        <h1>Ejercicios de programación parte 6 | ciclo 'while'</h1>
+        
+        
+    <!-- RETO NUMERO 1 -->
+        <section class="retos">
+            <div class="row">
+                <h2>RETO 1 | Suma hasta 50</h2>
+                <p>Crea una variable que se llame total, después pide a tu usuario que ingrese un número y lo sume al valor de total. Haz que esto se repita hasta que el valor de total sea mayor a 50 y muestra el resultado en pantalla.</p>
+                <div class="input">
+                    <label for="reto-1-input-a">Ingrese un número menor que 50:</label>
+                    <input id="reto-1-input-a" type="text" placeholder="Número">
+                    <button class="big-button"  onclick="retoUno()" type="button" >PUSH ME!</button>
+                </div>
+                <div id="reto-1-resultado"></div>    
+            </div>
+        </section>
+        
+    <!-- RETO NUMERO 2 -->
+        <section class="retos">
+            <div class="row">
+                <h2>RETO 2 | Más allá del 42</h2>
+                <p>Crea un código que pida al usuario un número y se repita hasta que coloque un número mayor a 42. Cuando se cumpla esta condición muestra el resultado en pantalla indicando esto al usuario y finaliza el ciclo.</p>
+                <div class="input">
+                    <button class="big-button"  onclick="retoDos()" type="button" >Ejecutar!</button>
+                </div>
+                <div id="reto-2-resultado"></div>    
+            </div>
+        </section>
+        
+    <!-- RETO NUMERO 3 -->
+        <section class="retos">
+            <div class="row">
+                <h2>RETO 3 | Sumas consecutivas</h2>
+                <p>Pide al usuario que ingrese dos números y los sume. Después pregunta si quiere añadir otro número: si la respuesta es afirmativa añádelo al total; en caso contrario finaliza el ciclo y muestra el resultado total en pantalla.</p>
+                <div class="input">
+                    <button class="big-button"  onclick="retoTres()" type="button" >Ejecutar!</button>
+                </div>
+                <div id="reto-3-resultado"></div>    
+            </div>
+        </section>
+        
+    <!-- RETO NUMERO 4 -->
+        <section class="retos">
+            <div class="row">
+                <h2>RETO 4 | Lista de invitados</h2>
+                <p>Estás organizando un banquete al que quieres invitar a tus amigos. Crea un programa que pida el nombre de uno de tus amigos, al hacerlo aumenta en uno una variable contadora, después pregunta si quieres invitar a alguien más: si la respuesta es afirmativa entonces pregunta por una persona más; en caso contrario cierra el ciclo y muestra en pantalla cuantos invitados son.</p>
+                <div class="input">
+                    <button class="big-button"  onclick="retoCuatro()" type="button" >Ejecutar!</button>
+                </div>
+                <div id="reto-4-resultado"></div>    
+            </div>
+        </section>
+        
+    <!-- RETO NUMERO 5 -->
+        <section class="retos">
+            <div class="row">
+                <h2>RETO 5 | Adivina el número secreto 1 - 10</h2>
+                <p>Crea un programa donde tendrás la variable numero_secreto, la cual toma un valor aleatorio entre 1 y 10. Después pide a tu usuario que indique un número para intentar adivinarlo: en caso de acertar indícale cual era el número secreto y cuantos intentos le tomó; en caso contrario indícale si el número ingresado es mayor o menor al número secreto.</p>
+                <div class="input">
+                    <button class="big-button"  onclick="retoCinco()" type="button" >Ejecutar!</button>
+                </div>
+                <div id="reto-5-resultado"></div>    
+            </div>
+        </section>
+
+
+    </div>
+    
+    <script src="./js/retos.js"></script>
+</body>
+</html>
